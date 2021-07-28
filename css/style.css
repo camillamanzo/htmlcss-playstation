@@ -1,0 +1,14 @@
+._sony-logo{
+    background-color: black;
+    height: 50px;
+}
+
+._sony-logo>img{
+    width: 7%;
+}
+
+header nav i{
+    color: grey;
+    font-size: .8em;
+}
+
