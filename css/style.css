@@ -12,3 +12,24 @@ header nav i{
     font-size: .8em;
 }
 
+._jumbo{
+    height: calc(100vh - 126px);
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+._jumbo img{
+    width: 100%;
+    opacity: 0.9;
+}
+
+._jumbo>.row{
+    height: 100%;
+}
+
+._jumbo-text-section>button{
+    background-color: rgb(206, 85, 37);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+}
