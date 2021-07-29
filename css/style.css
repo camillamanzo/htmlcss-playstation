@@ -3,6 +3,10 @@ header nav i{
     font-size: .8em;
 }
 
+img{
+    width: 100%;
+}
+
 ._sony-logo{
     background-color: black;
     height: 50px;
@@ -16,36 +20,6 @@ header nav i{
     color: rgb(0, 153, 255);
 }
 
-.img-radius,
-#games-library img{
-    border-radius: 12px;
-}
-
-#jumbo{
-    height: calc(100vh - 80px);
-    width: 100%;
-    background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#jumbo img{
-    width: 100%;
-    opacity: 0.9;
-}
-
-#games-library img{
-    width: 100%;
-}
-
-
-#jumbo>.row{
-    height: 100%;
-}
-
-#console-section img{
-    width: 100%;
-}
 
 ._jumbo-text-section>h1{
     font-size: 3em;
@@ -63,4 +37,33 @@ header nav i{
     padding: 10px 15px;
     border: none;
     border-radius: 50px;
+}
+
+._jumbo{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-radius,
+#games-library img,
+#games-library-2 img{
+    border-radius: 12px;
+}
+
+#jumbo{
+    background-image: url(../img/jumbo-bg.png);
+}
+
+#jumbo-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#jumbo img{
+    opacity: 0.9;
+}
+
+#jumbo>.row{
+    height: 100%;
 }
