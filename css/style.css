@@ -40,10 +40,15 @@ img{
 }
 
 ._jumbo{
-    height: 100vh;
+    height: calc(100vh - 80px);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.grey-text{
+    color: grey;
+    font-size: 1.2em;
 }
 
 .img-radius,
@@ -64,6 +69,29 @@ img{
     opacity: 0.9;
 }
 
+#jumbo-2 img{
+    width: 80%;
+}
+
+#jumbo-2 h1{
+    font-size: 2.5em;
+}
+
 #jumbo>.row{
     height: 100%;
+}
+
+#playstation-plus{
+    background-color: rgb(190, 189, 189);
+    height: 600px;
+}
+
+@media only screen and (min-width: 720px){
+    .console-section-row{
+        justify-content: space-around;
+    }
+
+    .console-col>h1{
+        margin-top: 150px;
+    }
 }
