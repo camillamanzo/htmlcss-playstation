@@ -1,3 +1,8 @@
+header nav i{
+    color: grey;
+    font-size: .8em;
+}
+
 ._sony-logo{
     background-color: black;
     height: 50px;
@@ -7,28 +12,54 @@
     width: 7%;
 }
 
-header nav i{
-    color: grey;
-    font-size: .8em;
+.text-blue{
+    color: rgb(0, 153, 255);
 }
 
-._jumbo{
-    height: calc(100vh - 126px);
+.img-radius,
+#games-library img{
+    border-radius: 12px;
+}
+
+#jumbo{
+    height: calc(100vh - 80px);
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-._jumbo img{
+#jumbo img{
     width: 100%;
     opacity: 0.9;
 }
 
-._jumbo>.row{
+#games-library img{
+    width: 100%;
+}
+
+
+#jumbo>.row{
     height: 100%;
+}
+
+#console-section img{
+    width: 100%;
+}
+
+._jumbo-text-section>h1{
+    font-size: 3em;
 }
 
 ._jumbo-text-section>button{
     background-color: rgb(206, 85, 37);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+._blue-button{
+    background-color: rgb(0, 89, 255);
     padding: 10px 15px;
     border: none;
     border-radius: 50px;
