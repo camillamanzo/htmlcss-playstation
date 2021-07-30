@@ -55,10 +55,6 @@ img{
     height: 100%;
 }
 
-._full-height{
-    height: 100%;
-}
-
 .img-radius,
 #games-library img,
 #games-library-2 img{
@@ -92,6 +88,19 @@ img{
 #playstation-plus{
     background-color: rgb(190, 189, 189);
     height: 100%;
+}
+
+#playstation-now{
+    background-color: rgb(38, 35, 90);
+}
+
+footer img{
+    width: 30%;
+}
+
+footer ul>li>a{
+    line-height: 2.5em;
+    color: white;
 }
 
 @media only screen and (min-width: 720px){
