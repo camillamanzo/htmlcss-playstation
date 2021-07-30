@@ -7,14 +7,6 @@ img{
     width: 100%;
 }
 
-footer img{
-    width: 30%;
-}
-
-footer ul>li>a{
-    line-height: 2.5em;
-    color: white;
-}
 
 ._sony-logo{
     background-color: black;
@@ -53,6 +45,7 @@ footer ul>li>a{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .grey-text{
@@ -64,10 +57,32 @@ footer ul>li>a{
     height: 100%;
 }
 
+footer img{
+    width: 30%;
+}
+
+footer ul>li>a{
+    line-height: 2.5em;
+    color: white;
+}
+
 .img-radius,
 #games-library img,
 #games-library-2 img{
     border-radius: 12px;
+}
+
+#lens-img{
+    width: 60%;
+}
+
+#navbar-access-button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+
+    color: white;
+    background-color: rgb(70, 70, 70);
 }
 
 #jumbo{
