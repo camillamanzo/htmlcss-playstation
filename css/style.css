@@ -7,6 +7,15 @@ img{
     width: 100%;
 }
 
+footer img{
+    width: 30%;
+}
+
+footer ul>li>a{
+    line-height: 2.5em;
+    color: white;
+}
+
 ._sony-logo{
     background-color: black;
     height: 50px;
@@ -94,15 +103,6 @@ img{
     background-color: rgb(38, 35, 90);
 }
 
-footer img{
-    width: 30%;
-}
-
-footer ul>li>a{
-    line-height: 2.5em;
-    color: white;
-}
-
 @media only screen and (min-width: 720px){
     .console-section-row{
         justify-content: space-around;
@@ -112,3 +112,51 @@ footer ul>li>a{
         margin-top: 150px;
     }
 }
+
+header .navbar-nav>.nav-item>.nav-link:hover{
+    color: rgb(56, 109, 255);
+    border-bottom: 1px solid rgb(56, 109, 255);
+}
+
+header .navbar-nav>.nav-item>.nav-link:hover i{
+    color: rgb(56, 109, 255);
+}
+
+._button:hover{
+    background-color: rgba(255, 255, 10, 0.911);
+    border: 1px solid rgba(255, 255, 10, 0.911);
+}
+
+#games-library>.row>div>div:hover{
+    border: 2px solid rgb(56, 109, 255);
+}
+
+._blue-button:hover{
+    background-color: rgb(56, 109, 255);
+    color: rgb(56, 109, 255);
+    border: 1px solid rgb(56, 109, 255);
+}
+
+.console-section-row>div:hover p{
+    color: rgb(56, 109, 255);
+}
+
+#games-library-2 .row>div:hover p{
+    font-size: large;
+}
+
+#store .row>div:hover img,
+#social-media .row>div:hover img,
+#games-library-2 .row>div:hover img,
+.console-section-row>div:hover img,
+#explore .row>div:hover img{
+    border: 2px solid white;
+}
+
+footer .row>div>ul>li:hover a{
+    color: white;
+    font-size: large;
+    border-bottom: 1px solid white;
+}  
+
+
